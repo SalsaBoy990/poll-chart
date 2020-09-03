@@ -1,0 +1,152 @@
+/* general */
+.mb0 {
+  margin-bottom: 0;
+}
+
+.mbhalf {
+  margin-bottom: 0.75rem;
+}
+
+.mthalf {
+  margin-top: 0.75rem;
+}
+
+
+.poll-chart-form {
+  margin-bottom: 3rem;
+}
+
+.mb1 {
+  margin-bottom: 1.5rem;
+}
+
+.mt2 {
+  margin-top: 3rem;
+}
+
+.mt1 {
+  margin-top: 1.5rem;
+}
+
+
+/* delete button styling red */
+button.poll-chart.button-danger {
+  color: #dc3232;
+  border-color: #dc3232;
+  background: #f3f5f6;
+  vertical-align: top;
+}
+
+button.poll-chart.button-danger:hover {
+  color: #f3f5f6;
+  border-color: #f3f5f6;
+  background: #dc3232;
+  vertical-align: top;
+}
+
+/* Adjust icon positions */
+.poll-chart.dashicons.dashicons-plus {
+  margin-top: 5px;
+  margin-right: 2px;
+}
+
+.poll-chart.dashicons.dashicons-edit {
+  margin-top: 5px;
+  margin-right: 2px;
+}
+
+/* Company team table styling */
+/* shortcode table view */
+div.poll-chart-wrapper {
+  overflow-x: scroll;
+  width: 98%;
+}
+
+table.poll-chart.widefat {
+  table-layout: auto;
+}
+
+table.poll-chart.widefat > thead th {
+  font-weight: bold;
+  color: #23282d;
+  font-variant: small-caps;
+}
+
+table.poll-chart.widefat > thead th {
+  font-weight: bold;
+  color: #464b50;
+  font-variant: small-caps;
+}
+
+table.poll-chart.widefat > tbody td {
+  font-size: 16px;
+}
+
+table.poll-chart td.small-col {
+  min-width: 75px;
+}
+
+
+table.poll-chart td {
+  vertical-align : middle;
+}
+
+table.poll-chart td.medium-col {
+  min-width: 150px;
+}
+
+
+table.poll-chart td .small-image {
+  width: 64px;
+  height: 64px;
+}
+
+table.poll-chart td .auto-image {
+  width: 100%;
+  height: auto;
+}
+
+table.poll-chart .image-table {
+  width: 150px;
+  height: auto;
+}
+
+/* shortcode list view */
+ul.poll-chart.grid-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  grid-gap: 1em;
+  text-align: left;
+}
+
+ul.poll-chart.grid-list li {
+  max-width: 320px;
+}
+
+ul.poll-chart.grid-list li > img {
+  width: 220px;
+  height: auto;
+}
+
+ul.poll-chart.grid-list li > h2 {
+  font-size: 1.5rem;
+}
+
+div.poll-chart.list-heading {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+div.poll-chart.list-heading h2 {
+  margin-bottom: 0.25rem;
+}
+
+img.poll-chart.small-img {
+  width: 200px;
+  height: auto;
+}
+
